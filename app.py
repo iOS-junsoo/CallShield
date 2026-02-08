@@ -207,6 +207,39 @@ st.markdown("""
 section[data-testid="stSidebar"] {
     background: #0F172A;
 }
+section[data-testid="stSidebar"] * {
+    color: #E2E8F0 !important;
+}
+section[data-testid="stSidebar"] .stRadio label span {
+    color: #E2E8F0 !important;
+    font-weight: 500;
+}
+section[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:hover span {
+    color: #FFFFFF !important;
+}
+section[data-testid="stSidebar"] .stSelectbox label,
+section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] {
+    color: #E2E8F0 !important;
+}
+section[data-testid="stSidebar"] .stMarkdown p,
+section[data-testid="stSidebar"] .stMarkdown span,
+section[data-testid="stSidebar"] .stMarkdown h3,
+section[data-testid="stSidebar"] .stMarkdown h4 {
+    color: #E2E8F0 !important;
+}
+section[data-testid="stSidebar"] .stCaption p {
+    color: #94A3B8 !important;
+}
+section[data-testid="stSidebar"] button {
+    background: #1E293B !important;
+    border: 1px solid #475569 !important;
+    color: #E2E8F0 !important;
+}
+section[data-testid="stSidebar"] button:hover {
+    background: #334155 !important;
+    border-color: #64748B !important;
+    color: #FFFFFF !important;
+}
 
 /* 버튼 */
 .stButton > button {
